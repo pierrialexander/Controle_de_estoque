@@ -1,0 +1,15 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 439
+  Width = 595
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'Database=estoque'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 64
+    Top = 64
+  end
+end
