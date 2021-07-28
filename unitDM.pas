@@ -23,6 +23,11 @@ type
     sqlDiminuiEstoque: TFDCommand;
     sqlMovimentacoes: TFDQuery;
     dsSqlMovimentacoes: TDataSource;
+    tbProdutosid: TFDAutoIncField;
+    tbProdutosnome: TStringField;
+    tbProdutosfabricante: TStringField;
+    tbProdutosvalidade: TDateField;
+    tbProdutosestoqueAtual: TIntegerField;
   private
     { Private declarations }
   public
