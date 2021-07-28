@@ -28,6 +28,11 @@ type
     tbProdutosfabricante: TStringField;
     tbProdutosvalidade: TDateField;
     tbProdutosestoqueAtual: TIntegerField;
+    tbMovimentacoesid: TFDAutoIncField;
+    tbMovimentacoestipo: TStringField;
+    tbMovimentacoesdataHora: TDateTimeField;
+    tbMovimentacoesresponsavel: TStringField;
+    tbMovimentacoesobservacoes: TMemoField;
   private
     { Private declarations }
   public

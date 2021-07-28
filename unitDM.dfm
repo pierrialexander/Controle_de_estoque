@@ -60,6 +60,32 @@ object DM: TDM
     TableName = 'estoque.movimentacoes'
     Left = 248
     Top = 64
+    object tbMovimentacoesid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+    end
+    object tbMovimentacoestipo: TStringField
+      FieldName = 'tipo'
+      Origin = 'tipo'
+      Required = True
+    end
+    object tbMovimentacoesdataHora: TDateTimeField
+      FieldName = 'dataHora'
+      Origin = 'dataHora'
+      Required = True
+      EditMask = '##/##/####;1;_'
+    end
+    object tbMovimentacoesresponsavel: TStringField
+      FieldName = 'responsavel'
+      Origin = 'responsavel'
+      Required = True
+      Size = 50
+    end
+    object tbMovimentacoesobservacoes: TMemoField
+      FieldName = 'observacoes'
+      Origin = 'observacoes'
+      BlobType = ftMemo
+    end
   end
   object dsMovimentacoes: TDataSource
     DataSet = tbMovimentacoes
