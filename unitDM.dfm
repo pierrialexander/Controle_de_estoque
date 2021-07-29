@@ -23,6 +23,7 @@ object DM: TDM
     object tbProdutosid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
+      ReadOnly = True
     end
     object tbProdutosnome: TStringField
       FieldName = 'nome'
@@ -63,6 +64,7 @@ object DM: TDM
     object tbMovimentacoesid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
+      ReadOnly = True
     end
     object tbMovimentacoestipo: TStringField
       FieldName = 'tipo'
@@ -94,7 +96,9 @@ object DM: TDM
   end
   object tbMovProdutos: TFDTable
     Active = True
-    IndexFieldNames = 'id'
+    IndexName = 'idMovimentacoes'
+    MasterSource = dsMovimentacoes
+    MasterFields = 'id'
     Connection = Conexao
     UpdateOptions.UpdateTableName = 'estoque.movimentacoes_produtos'
     TableName = 'estoque.movimentacoes_produtos'

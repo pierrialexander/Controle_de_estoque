@@ -11,11 +11,11 @@
     <Transaction>2021/07/27 20:07:52.000.451,=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
     <Transaction>2021/07/27 20:08:07.000.395,C:\DELPHI\Controle_de_estoque\Unit1.pas=C:\DELPHI\Controle_de_estoque\unitCadMovimentacao.pas</Transaction>
     <Transaction>2021/07/27 20:08:07.000.395,C:\DELPHI\Controle_de_estoque\Unit1.dfm=C:\DELPHI\Controle_de_estoque\unitCadMovimentacao.dfm</Transaction>
-    <Transaction>2021/07/27 20:11:54.030,=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
-    <Transaction>2021/07/27 20:12:46.440,C:\DELPHI\Controle_de_estoque\unitConsMovimentacao.pas=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
-    <Transaction>2021/07/27 20:12:46.440,C:\DELPHI\Controle_de_estoque\unitConsMovimentacao.dfm=C:\DELPHI\Controle_de_estoque\Unit1.dfm</Transaction>
-    <Transaction>2021/07/27 20:13:18.805,=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
-    <Transaction>2021/07/27 20:13:48.984,C:\DELPHI\Controle_de_estoque\unitDM.pas=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
-    <Transaction>2021/07/27 20:13:48.984,C:\DELPHI\Controle_de_estoque\unitDM.dfm=C:\DELPHI\Controle_de_estoque\Unit1.dfm</Transaction>
+    <Transaction>2021/07/27 20:11:54.000.030,=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
+    <Transaction>2021/07/27 20:12:46.000.440,C:\DELPHI\Controle_de_estoque\unitConsMovimentacao.pas=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
+    <Transaction>2021/07/27 20:12:46.000.440,C:\DELPHI\Controle_de_estoque\unitConsMovimentacao.dfm=C:\DELPHI\Controle_de_estoque\Unit1.dfm</Transaction>
+    <Transaction>2021/07/27 20:13:18.000.805,=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
+    <Transaction>2021/07/27 20:13:48.000.984,C:\DELPHI\Controle_de_estoque\unitDM.pas=C:\DELPHI\Controle_de_estoque\Unit1.pas</Transaction>
+    <Transaction>2021/07/27 20:13:48.000.984,C:\DELPHI\Controle_de_estoque\unitDM.dfm=C:\DELPHI\Controle_de_estoque\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>
