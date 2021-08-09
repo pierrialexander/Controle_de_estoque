@@ -30,6 +30,7 @@ type
     DBLookupComboBox1: TDBLookupComboBox;
     txtTotalProdutos: TLabel;
     procedure DBNavigator1Click(Sender: TObject; Button: TNavigateBtn);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -53,6 +54,11 @@ begin
       DM.tbMovimentacoes.FieldByName('dataHora').Value := Now;
     end;
 
+end;
+
+procedure TFormCadMovimentacao.FormShow(Sender: TObject);
+begin
+  DM.calcularTotais;
 end;
 
 end.

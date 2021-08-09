@@ -14,6 +14,7 @@ object FormCadMovimentacao: TFormCadMovimentacao
   Font.Style = []
   OldCreateOrder = False
   Position = poMainFormCenter
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -136,7 +137,7 @@ object FormCadMovimentacao: TFormCadMovimentacao
   object txtTotalProdutos: TLabel
     Left = 823
     Top = 414
-    Width = 10
+    Width = 26
     Height = 19
     Caption = '0'
     Font.Charset = DEFAULT_CHARSET
@@ -293,14 +294,13 @@ object FormCadMovimentacao: TFormCadMovimentacao
     Columns = <
       item
         Expanded = False
-        FieldName = 'idProduto'
+        FieldName = 'nomeProduto'
         Title.Caption = 'Produto'
         Title.Font.Charset = DEFAULT_CHARSET
         Title.Font.Color = clWindowText
         Title.Font.Height = -12
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 242
         Visible = True
       end
       item
@@ -312,7 +312,6 @@ object FormCadMovimentacao: TFormCadMovimentacao
         Title.Font.Height = -12
         Title.Font.Name = 'Tahoma'
         Title.Font.Style = [fsBold]
-        Width = 118
         Visible = True
       end>
   end
