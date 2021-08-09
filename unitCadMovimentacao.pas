@@ -31,6 +31,8 @@ type
     txtTotalProdutos: TLabel;
     procedure DBNavigator1Click(Sender: TObject; Button: TNavigateBtn);
     procedure FormShow(Sender: TObject);
+    procedure FormKeyPress(Sender: TObject; var Key: Char);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }
   public
@@ -54,6 +56,19 @@ begin
       DM.tbMovimentacoes.FieldByName('dataHora').Value := Now;
     end;
 
+end;
+
+procedure TFormCadMovimentacao.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  If key=vk_escape then
+  close;
+end;
+
+procedure TFormCadMovimentacao.FormKeyPress(Sender: TObject; var Key: Char);
+begin
+  if key = chr(27) then
+  FormCadMovimentacao.Close;
 end;
 
 procedure TFormCadMovimentacao.FormShow(Sender: TObject);

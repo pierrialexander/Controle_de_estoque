@@ -21,6 +21,7 @@ type
     Label4: TLabel;
     DBGrid1: TDBGrid;
     procedure FormShow(Sender: TObject);
+    procedure FormKeyPress(Sender: TObject; var Key: Char);
   private
     { Private declarations }
   public
@@ -35,6 +36,12 @@ implementation
 {$R *.dfm}
 
 uses unitDM;
+
+procedure TFormCadProdutos.FormKeyPress(Sender: TObject; var Key: Char);
+begin
+  if key = chr(27) then
+  FormCadProdutos.Close;
+end;
 
 procedure TFormCadProdutos.FormShow(Sender: TObject);
 begin

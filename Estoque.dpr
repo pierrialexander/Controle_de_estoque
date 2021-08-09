@@ -6,7 +6,8 @@ uses
   unitCadProduto in 'unitCadProduto.pas' {FormCadProdutos},
   unitCadMovimentacao in 'unitCadMovimentacao.pas' {FormCadMovimentacao},
   unitConsMovimentacao in 'unitConsMovimentacao.pas' {FormConsMovimentacao},
-  unitDM in 'unitDM.pas' {DM: TDataModule};
+  unitDM in 'unitDM.pas' {DM: TDataModule},
+  unitSobre in 'unitSobre.pas' {FormSobre};
 
 {$R *.res}
 
@@ -18,5 +19,6 @@ begin
   Application.CreateForm(TFormCadMovimentacao, FormCadMovimentacao);
   Application.CreateForm(TFormConsMovimentacao, FormConsMovimentacao);
   Application.CreateForm(TDM, DM);
+  Application.CreateForm(TFormSobre, FormSobre);
   Application.Run;
 end.
